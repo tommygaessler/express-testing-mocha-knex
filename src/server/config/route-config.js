@@ -6,9 +6,11 @@
 
     // *** routes *** //
     const routes = require('../routes/index');
+    const users = require('../routes/users');
 
     // *** register routes *** //
     app.use('/', routes);
+    app.use('/api/vi/users', users);
 
   };
 
