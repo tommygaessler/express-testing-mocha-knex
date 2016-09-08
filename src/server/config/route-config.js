@@ -10,7 +10,7 @@
 
     // *** register routes *** //
     app.use('/', routes);
-    app.use('/api/vi/users', users);
+    app.use('/api/v1/users', users);
 
   };
 
